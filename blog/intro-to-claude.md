@@ -19,19 +19,20 @@ Besides the chatbot, Claude is also available via API where developers can build
 
 ## Claude AI Capabilities
 Here are the use cases where Claude excels at:
-**- Conversation:**
+- **Conversation:**
 Claude is highly capable of engaging in natural, open-ended conversations, understanding user's context and providing thoughtful responses.
-**- Content Creation:**
+- **Content Creation:**
 Claude can generate high quality content tailored to requirements set by the user.
-**- Language Translation:**
+- **Language Translation:**
 In this day and age, global communication is crucial. Claude has multilingual capabilities, allowing translation between different languages in real-time and multi-lingual content creation.
-**- Visual processing:**
+- **Visual processing:**
 Claude can analyze and transcribe images, including photographs and handwritten notes.
-**- Code Generation:**
+- **Code Generation:**
 code generation has become an attractive feature and a key competitive advantage with every new AI model release. Claude can generate code snippets, understand different programming languages, explain code functionality and assist in debugging code bases.
 
 ## Claude vs ChatGPT
 let's look at the difference between ChatGPT and Claude:
+
 **LLM:**
 - Claude 3 is the latest set of models released on March 2024.
 - GPT-4 is the current model since March 2023.
@@ -45,12 +46,12 @@ context window represents the maximum number of tokens an AI system can process 
 - All three of Claude 3 versions have a context window of **200k tokens** - significantly larger than GPT-4.
 
 **Safety:**
-**- GPT-4:**
+- **GPT-4:**
   - While safety is a critical aspect of ChatGPT and efforts have been made to mitigate misinformation, the chatbot tends to generate some harmful and incorrect output.
   - GPT-4 saves conversations with the user to further train and improve the model.
-**- Claude 3:**
-- Claude was developed with safety in mind. Anthropic emphasizes on ethical use of AI in both the training approach and how the chatbot processes input and generates output. The model strictly follows Constitutional AI to align with ethical standards.
-- Claude does not retain user data.
+- **Claude 3:**
+  - Claude was developed with safety in mind. Anthropic emphasizes on ethical use of AI in both the training approach and how the chatbot processes input and generates output. The model strictly follows Constitutional AI to align with ethical standards.
+  - Claude does not retain user data.
 
 **Accessibility:**
 Both Claude 3 and GPT-4 models are available directly through the chatbots as well as through API. Additionally, they're accessible in other platforms:
