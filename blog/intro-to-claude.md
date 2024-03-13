@@ -1,4 +1,5 @@
 # Introduction to Claude AI
+![image](https://github.com/Firasama29/freecodecamp-contribution/assets/67781796/ba8eb841-7244-4049-993c-8c66ea36dabf)
 
 Claude is one of the leading Large Language Models in the market, developed by Anthropic, an AI startup that is co-founded by ex OpenAI employees. The company is known for its stringent set of AI ethics compared to OpenAI and it's currently backed by tech giants such as Google and Amazon.
 
