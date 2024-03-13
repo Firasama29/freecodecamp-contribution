@@ -91,10 +91,15 @@ Here's an example of a python script that instructs Claude to explain the conce
 
 Make sure you replace `your_api_key` with the actual API key that you created.
 Let's quickly discuss the parameters defined above:
+
 `model="claude-3-opus-20240229"` specifies the model to be used.
+
 `max_tokens=1000` sets the maximum number of tokens that the generated response can have.
+
 `temperature=0.0` the temperature controls the level of randomness of the generated response. `0.0` means the response will be more consistent and less varied.
+
 `system="Provide short and clear responses."` specifies how the system should generate the response.
+
 `messages=[{"role": "user", "content": Can you explain the concept of neural networks?"}]` defines the role and input message based on which the output will be generated.
 
 Here's a sample response:
