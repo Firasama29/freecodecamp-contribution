@@ -92,15 +92,15 @@ Here's an example of a python script that instructs Claude to explain the conce
 Make sure you replace `your_api_key` with the actual API key that you created.
 Let's quickly discuss the parameters defined above:
 
-`model="claude-3-opus-20240229"` specifies the model to be used.
+- `model="claude-3-opus-20240229"` specifies the model to be used.
 
-`max_tokens=1000` sets the maximum number of tokens that the generated response can have.
+- `max_tokens=1000` sets the maximum number of tokens that the generated response can have.
 
-`temperature=0.0` the temperature controls the level of randomness of the generated response. `0.0` means the response will be more consistent and less varied.
+- `temperature=0.0` the temperature controls the level of randomness of the generated response. `0.0` means the response will be more consistent and less varied.
 
-`system="Provide short and clear responses."` specifies how the system should generate the response.
+- `system="Provide short and clear responses."` specifies how the system should generate the response.
 
-`messages=[{"role": "user", "content": Can you explain the concept of neural networks?"}]` defines the role and input message based on which the output will be generated.
+- `messages=[{"role": "user", "content": Can you explain the concept of neural networks?"}]` defines the role and input message based on which the output will be generated.
 
 Here's a sample response:
 `[ContentBlock(text='Neural networks are a type of machine learning algorithm inspired by the structure and function of the human brain. They consist of interconnected nodes, or "neurons," organized in layers. Here\\'s a brief explanation of how they work:\\n\\n1. Input layer: The network receives input data, such as images or text.\\n\\n2. Hidden layers: The input data is processed through one or more hidden layers, where each neuron applies a mathematical transformation to the data it receives from the previous layer.\\n\\n3. Output layer: The final layer produces the network\\'s output, which could be a classification label or a numerical prediction.\\n\\n4. Training: The network learns by adjusting the strength of the connections (weights) between neurons based on the difference between the predicted output and the actual output. This process is called backpropagation.\\n\\n5. Optimization: The network iteratively updates its weights to minimize the error between predictions and actual outputs, improving its performance over time.\\n\\nNeural networks can learn complex patterns and relationships in data, making them well-suited for tasks like image recognition, natural language processing, and prediction problems.', type='text')
